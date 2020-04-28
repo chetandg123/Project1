@@ -1,0 +1,12 @@
+ <suite name="Suite1">
+      <test name="ExampleTest1">
+        <classes>
+           <class name="fb" />
+        </classes>
+      </test>
+      <test name="ExampleTest2">
+        <classes>
+           <class name="amazon" />
+        </classes>
+      </test>
+    </suite>
