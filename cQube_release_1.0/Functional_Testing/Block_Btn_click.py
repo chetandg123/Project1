@@ -12,11 +12,7 @@ from get_dir import pwd
 class blockbtn_click(unittest.TestCase):
     def setUp(self):
         dri = pwd()
-        self.driver = webdriver.Chrome(dri.get_driver_path())
-        driver = cqube(self.driver)
-        driver.open_cqube_appln()
-        driver.login_cqube()
-        driver.navigate_to_semester_report()
+
 
     def test_blockbtn(self):
         self.driver.find_element_by_xpath(Data.Blocks).click()

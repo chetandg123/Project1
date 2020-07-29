@@ -31,7 +31,7 @@ class Data():
 
     logout ="/html/body/app-root/app-home/mat-toolbar/button[2]/span"
     # url = base64.b64decode("aHR0cHM6Ly9jcXViZS50aWJpbHByb2plY3RzLmNvbQ==").decode("utf-8")
-    url ="http://52.66.209.6:4200/"
+    # url ="http://52.66.209.6:4200/"
     username = base64.b64decode("dGliaWxzb2x1dGlvbnNAY3F1YmUuY29t").decode("utf-8")
     password = base64.b64decode("dGliaWwxMjM=").decode("utf-8")
 
